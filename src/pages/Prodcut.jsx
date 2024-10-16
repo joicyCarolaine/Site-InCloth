@@ -196,25 +196,25 @@ export default function Prodcut() {
                 initial={{ opacity: 0, x: -75 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0 }} onClick={handleSizeChanges('SM')} className={`border px-5 py-1 cursor-pointer ${Size === 'SM' ? 'bg-gray-500 text-white border-gray-500' : 'border-black'}`}>
-                SM
+                P
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: -75 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.1 }} onClick={handleSizeChanges('MD')} className={`border px-5 py-1 cursor-pointer ${Size === 'MD' ? 'bg-gray-500 text-white border-gray-500' : 'border-black'}`}>
-                MD
+                M
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: -75 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }} onClick={handleSizeChanges('LG')} className={`border px-5 py-1 cursor-pointer ${Size === 'LG' ? 'bg-gray-500 text-white border-gray-500' : 'border-black'}`}>
-                LG
+                G
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: -75 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }} onClick={handleSizeChanges('Any')} className={`border px-5 py-1 cursor-pointer ${Size === 'Any' ? 'bg-gray-500 text-white border-gray-500' : 'border-black'}`}>
-                Any
+                GG
               </motion.div>
             </div>
 
